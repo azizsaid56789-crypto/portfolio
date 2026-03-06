@@ -53,3 +53,26 @@ nav ul li a{
 nav ul li a:hover{
     color:#38bdf8;
 }
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:20px 0;
+}
+
+.skills-list{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:0;
+    flex-wrap:wrap;
+}
+
+.skills-list li{
+    background:#1e293b;
+    padding:10px 20px;
+    border-radius:10px;
+    margin:5px;
+}
