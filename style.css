@@ -170,3 +170,33 @@ padding:20px;
 margin-top:40px;
 font-size:14px;
 }
+/* Scroll animation */
+
+section{
+opacity:0;
+transform:translateY(40px);
+transition:all 0.8s ease;
+}
+
+section.show{
+opacity:1;
+transform:translateY(0);
+}
+/* Mobile */
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+gap:10px;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+section{
+padding:60px 20px;
+}
+
+}
