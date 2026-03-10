@@ -84,3 +84,18 @@ section.show{
 opacity:1;
 transform:translateY(0);
 }
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#3b82f6;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-top:15px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1d4ed8;
+transform:scale(1.05);
+}
