@@ -1,152 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Said Aziz | Portfolio</title>
-
-<meta name="description" content="Portfolio of Said Aziz - Web Developer">
-
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="styles0.css">
 </head>
-
 <body>
-<div id="particles-js"></div>
-<!-- Navbar -->
+    <header>
+        <div class="logo">
+            Aziz<span>Said</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div><a href="#contact" class="btn">Hire Me</a></div>
+    </header>
+    <main>
+        <section id="home">
+            <div>
+                <span class="title-section">Web Developer & Future Programming Professor</span>
+            </div>
+            <h1>Hello, I'm <span id="name">Said Aziz</span></h1>
+            <p>I build clean, modern websites using HTML, CSS, <br>JavaScript, PHP, and databases. I’m passionate about programming,<br> teaching, and turning creative ideas into useful digital experiences.</p>
+           <div>
+             <a href="#skills" class="btn">View My Skills</a>
+            <a href="#contact" class="btnR">Get In Touch</a>
+           </div>
 
-<nav class="navbar">
+        <div class="stat">
+            <div><b>5+</b><br><span>Core Technologies</span></div>
+            <div><b>Web</b><br><span>Development Focus</span></div>
+            <div><b>Creative</b><br><span>Design & Painting</span></div>
+        </div>
+        <div class="ppic"><img src="profile_pic.png" alt="profile picture"></div>
+       
 
-<div class="logo">
-Said Aziz
-</div>
+        </section>
+         <section id="skills">
+            <div >
+                <span class="title-section">Technical Skills</span>
+            </div>
+            <h1>What I Work With</h1>
+            <p>
+                I focus on full web development,<br> from designing responsive interfaces to building dynamic server-side applications.
+            </p>
+            
+<div class="skills-list">
 
-<ul class="nav-links">
+    <div class="skills-container">
+        <div class="skills-name">
+            <h3>HTML5</h3>
+            <span>90%</span>
+        </div>
+        <div class="skills-range">
+            <input type="range" min="0" max="100" value="90" style="--progress: 90%" readonly>
+        </div>
+    </div>
 
-<li><a href="#home">Home</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#contact">Contact</a></li>
+    <div class="skills-container">
+        <div class="skills-name">
+            <h3>CSS3</h3>
+            <span>85%</span>
+        </div>
+        <div class="skills-range">
+            <input type="range" min="0" max="100" value="85" style="--progress: 85%" readonly>
+        </div>
+    </div>
 
-</ul>
+    <div class="skills-container">
+        <div class="skills-name">
+            <h3>JavaScript</h3>
+            <span>80%</span>
+        </div>
+        <div class="skills-range">
+            <input type="range" min="0" max="100" value="80" style="--progress: 80%" readonly>
+        </div>
+    </div>
 
-</nav>
+    <div class="skills-container">
+        <div class="skills-name">
+            <h3>PHP</h3>
+            <span>75%</span>
+        </div>
+        <div class="skills-range">
+            <input type="range" min="0" max="100" value="75" style="--progress: 75%" readonly>
+        </div>
+    </div>
 
-
-<!-- Hero Section -->
-
-<header id="home" class="hero">
-<section id="about">
-
-<h2>About Me</h2>
-
-<p>
-I am a web developer passionate about building websites and learning new technologies.
-</p>
-
-</section>
-<h1>Hello, I'm <span>Said Aziz</span></h1>
-
-<p>
-Web Developer | HTML | CSS | JavaScript | Python
-</p>
-
-<a href="#projects" class="btn">
-View My Work
-</a><br><br>
-<a href="#" class="btn">Download CV</a>
-</header>
-
-
-<!-- Projects -->
-
-<section id="projects">
-
-<h2>Projects</h2>
-
-<div class="projects-container">
-
-<div class="project-card">
-
-<img src="code.webp">
-
-<h3>Portfolio Website</h3>
-
-<p>My personal website hosted on GitHub Pages.</p>
-
-</div>
-<div class="project-card">
-<img src="js.jpg">
-<h3>JavaScript App</h3>
-
-<p>
-A simple JavaScript application for practice.
-</p>
-
-</div>
-
-<div class="project-card">
-<img src="pyhton.jpg">
-<h3>Python Program</h3>
-
-<p>
-Small Python project created while learning programming.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- Skills -->
-
-<section id="skills">
-
-<h2>Skills</h2>
-
-<div class="skills-container">
-
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">Python</div>
-<div class="skill">Git</div>
+    <div class="skills-container">
+        <div class="skills-name">
+            <h3>Databases</h3>
+            <span>75%</span>
+        </div>
+        <div class="skills-range">
+            <input type="range" min="0" max="100" value="75" style="--progress: 75%" readonly>
+        </div>
+    </div>
 
 </div>
+        <section id="goals">
+            <div >
+               <span class="title-section">My Goals</span> 
+            </div>
+            <h1>Where I’m Heading</h1>
+            <p>
+                My ambition combines professional software development with sharing knowledge through teaching..
+            </p>
+            <div class="goals-list">
+                <div class="goal-container">
+                    <div class="goal-number">01</div>
+                    <h3>Become a Professional Programmer</h3>
+                    <p>Develop strong practical skills in web development, backend programming, databases, and modern software practices.</p>
+                </div>
+                <div class="goal-container">
+                    <div class="goal-number">02</div>
+                    <h3>Become a Programming Professor</h3>
+                    <p>Teach programming languages clearly and inspire students to understand logic, problem-solving, and technology.</p>
+                </div>
+                <div class="goal-container">
+                    <div class="goal-number">03</div>
+                    <h3>Build Useful Projects</h3>
+                    <p>Create websites and applications that solve real problems while improving my design and development abilities.</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="hobbies">
+            <div class="title-section">
+                BEYOND CODE
+            </div>
+            <h1>Hobbies & Creativity</h1>
+            <p>Creativity is an important part of how I think, design, and build.</p>
+            <div class="hobbies-list">
+                <div class="hobby-container">
+                    <div class="hobby-icon">🎨</div>
+                    <h3>Painting</h3>
+                    <p>I enjoy painting and exploring different artistic styles, which enhances my creativity in design and development.</p>
+                </div>
+                <div class="hobby-container">
+                    <div class="hobby-icon">✨</div>
+                    <h3>Creating Designs</h3>
+                    <p>I enjoy designing layouts, visual concepts, and user interfaces that feel modern, clear, and attractive.</p>
+                </div>
+                <div class="hobby-container">
+                    <div class="hobby-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Playing video games allows me to relax and also inspires ideas for interactive design and user experience.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <fieldset>
+                <div >
+              <span class="title-section">CONTACT</span>  
+            </div>
+            <h1>
+                Let’s Build Something Together
+            </h1>
+            <p>
+                If you have a project, an opportunity, or simply want to talk about programming and design, feel free to contact me.
+            </p>
+           <div class="contact-list">
+             <ul >
+          <li>📧 <span><b>Email:</b> your.email@example.com</span></li>
+          <li>📍 <span><b>Location:</b> El Kef, Tunisia</span></li>
+          <li>💻 <span><b>GitHub:</b> <a href="https://github.com/azizsaid56789-crypto">github</a></span></li>
+        </ul>
+        <div class="btn-container">
+            <a href="mailto:azizsaid56789@gmail.com" class="btn btn-primary" style="width:100%;justify-content:center">Send Me an Email</a>
+            <a href="download/cv.pdf" class="btn btn-ghost" style="width:100%;justify-content:center;margin-top:14px">Download CV</a>
+        </div>
+           </div>
 
-</section>
-
-
-<!-- Contact -->
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>
-Feel free to reach out if you want to collaborate.
-</p>
-
-<a href="mailto:your-email@example.com" class="btn">
-Send Email
-</a>
-
-</section>
-
-
-<!-- Footer -->
-
-<footer>
-
-<p>
-© 2026 Said Aziz
-</p>
-
-</footer>
-<script src="script.js"></script>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Aziz Said — Designed with passion.</p>
+    </footer>
 </body>
 </html>
